@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Should be started in detached mode
 # to ensure an ssh disconnect will not interrupt the process:
-# /split_storage_migration.sh (testnet|mainnnet)  >> ./split_storage_migration.log &
+# /split_storage_migration.sh (testnet|mainnet)  >> ./split_storage_migration.log &
 # Takes one argument -- chain_id (mainnet or testnet)
 # Prerequisites:
 # - systemd neard service
